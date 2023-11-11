@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>word pad or word counter</title>
+</head>
+<body>
+<form th:action="displayWord" method="POST">
+<label>enter words:</label>
+<br>
+<br>
+<textarea cols="100" rows="10" name="words">
+</textarea>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

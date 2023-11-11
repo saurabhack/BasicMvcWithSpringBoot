@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>StudentRegistration</title>
+</head>
+<body>
+<form th:action="@{studentDetails}" method="POST">
+    <label>
+        enter your name
+    </label>
+    <input type="text" name="name" >
+
+    <br>
+    <br>
+
+    <label>
+        enter your class
+    </label>
+    <br>
+    <input type="text" name="class">
+
+    <br>
+
+    <label>
+        enter your age
+    </label>
+    <br>
+    <input type="text" name="age">
+    <br>
+    <br>
+
+    <label>
+        enter your faviourite subject
+    </label>
+    <br>
+    <input type="text" name="subject">
+    <br>
+
+    <input type="submit" value="submit">
+    <br>
+    <br>
+</form>
+</body>
+</html>
